@@ -49,6 +49,9 @@
 
 ## site-blog
 
+- [link figma](https://www.figma.com/design/BnwDMZLJH0wWP7cTzDLDLx/Landing-Page-e-Blog--Community-?node-id=0-1&p=f&t=mh1tit8GHEB3bqr2-0)
+- [docs shadcn](https://ui.shadcn.com/docs/components)
+
 ### config:
 
 <img src="./site-blog/config_install_project_init.png" alt="configuração do projeto" />
