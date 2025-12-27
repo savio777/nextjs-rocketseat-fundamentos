@@ -1,12 +1,12 @@
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+import { HeroSection, FeatureSection } from '@/components/sections';
 
 export default function Home() {
   return (
-    <div>
-      <Link href='/about' className='ml-4 text-blue-500 underline'>
-        <Button variant='default'>Go to About Page</Button>
-      </Link>
-    </div>
+    <>
+      <article className='flex flex-col'>
+        <HeroSection />
+        <FeatureSection />
+      </article>
+    </>
   );
 }

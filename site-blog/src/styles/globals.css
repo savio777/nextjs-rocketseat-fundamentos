@@ -80,7 +80,9 @@
   --color-blue-200: var(--blue-200);
   --color-blue-300: var(--blue-300);
   --color-blue-400: var(--blue-400);
-  --color-blue-500: var(--blue-200);
+  --color-cyan-100: var(--cyan-100);
+  --color-cyan-200: var(--cyan-200);
+  --color-cyan-300: var(--cyan-300);
   --color-gray-100: var(--gray-100);
   --color-gray-500: var(--gray-500);
   --color-gray-700: var(--gray-700);
@@ -120,37 +122,37 @@
 }
 
 /* Heading classes */
-.heading-hg {
+.text-heading-hg {
   font-size: var(--heading-hg-size);
   line-height: var(--heading-hg-lh);
   font-weight: var(--heading-hg-weight);
   font-family: var(--font-pt-sans);
 }
-.heading-xl {
+.text-heading-xl {
   font-size: var(--heading-xl-size);
   line-height: var(--heading-xl-lh);
   font-weight: var(--heading-xl-weight);
   font-family: var(--font-pt-sans);
 }
-.heading-lg {
+.text-heading-lg {
   font-size: var(--heading-lg-size);
   line-height: var(--heading-lg-lh);
   font-weight: var(--heading-lg-weight);
   font-family: var(--font-pt-sans);
 }
-.heading-md {
+.text-heading-md {
   font-size: var(--heading-md-size);
   line-height: var(--heading-md-lh);
   font-weight: var(--heading-md-weight);
   font-family: var(--font-pt-sans);
 }
-.heading-sm {
+.text-heading-sm {
   font-size: var(--heading-sm-size);
   line-height: var(--heading-sm-lh);
   font-weight: var(--heading-sm-weight);
   font-family: var(--font-pt-sans);
 }
-.heading-xs {
+.text-heading-xs {
   font-size: var(--heading-xs-size);
   line-height: var(--heading-xs-lh);
   font-weight: var(--heading-xs-weight);
@@ -158,22 +160,28 @@
 }
 
 /* Body / Action text classes */
-.body-md {
+.text-body-md {
   font-size: var(--body-md-size);
   line-height: var(--body-md-lh);
   font-weight: var(--body-md-weight);
   font-family: var(--font-inter);
 }
-.body-sm {
+.text-body-sm {
   font-size: var(--body-sm-size);
   line-height: var(--body-sm-lh);
   font-weight: var(--body-sm-weight);
   font-family: var(--font-inter);
 }
-.body-xs {
+.text-body-xs {
   font-size: var(--body-xs-size);
   line-height: var(--body-xs-lh);
   font-weight: var(--body-xs-weight);
+  font-family: var(--font-inter);
+}
+.text-body-tag {
+  font-size: var(--body-xs-size);
+  line-height: var(--body-xs-lh);
+  font-weight: var(--action-md-weight);
   font-family: var(--font-inter);
 }
 
@@ -190,10 +198,8 @@
   font-family: var(--font-inter);
 }
 
-/* Exemplo de uso das variáveis de cor (se precisar usar sem classes Tailwind) */
-.text-blue-200 {
-  color: var(--blue-200);
-}
-.bg-gray-100 {
-  background-color: var(--gray-100);
+body {
+  background-color: var(--gray-500) !important;
+  color: var(--gray-100) !important;
+  font-family: var(--font-inter);
 }
