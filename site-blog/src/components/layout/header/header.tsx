@@ -1,10 +1,9 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import Image from 'next/image';
 
 import { Button } from '@/components/ui/button';
 import { ActiveLink } from '@/components/active-link';
-import { Logo } from '../logo';
+import { Logo } from '@/components/logo';
 
 export function Header() {
   const router = useRouter();
@@ -14,7 +13,7 @@ export function Header() {
 
   return (
     <header className='fixed top-0 z-50 w-full backdrop-blur supports-[backdrop-filters]:bg-background/60'>
-      <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-80'>
+      <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
         <div className='flex h-16 items-center justify-between'>
           <Logo />
 

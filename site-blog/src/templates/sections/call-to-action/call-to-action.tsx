@@ -4,12 +4,15 @@ import { Button } from '@/components/ui/button';
 
 export function CallToAction() {
   return (
-    <section className='py-24 bg-linear-to-b from-cyan-950/20 to-gray-500'>
-      <div className='container'>
+    <section className='relative py-24 bg-linear-to-b from-cyan-950/20 to-gray-500'>
+      <div className="absolute inset-0 bg-[url('/assets/background-footer.svg')] bg-cover bg-center bg-no-repeat opacity-90"></div>
+
+      <div className='bg-cyan-300 rounded-full w-fit p-4 absolute top-0 left-1/2 -translate-y-1/2 -translate-x-1/2'>
+        <Store className='text-cyan-100' />
+      </div>
+
+      <div className='container relative'>
         <div className='flex flex-col items-center gap-6 text-center'>
-          <div className='bg-cyan-300 rounded-full w-fit p-4'>
-            <Store className='text-cyan-100' />
-          </div>
           <h2 className='text-heading-lg text-balance text-center'>
             Crie uma loja online e inicie suas vendas ainda hoje
           </h2>
