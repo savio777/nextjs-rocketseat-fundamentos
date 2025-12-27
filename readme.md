@@ -36,8 +36,19 @@
 - desvantagnes:
   - não é dinamico (possibilidade do usuário acessar página desatualizada
 
+## navegação sem App Router (./src/pages):
+
+- `_app.tsx`:
+  - wrapper de todas as páginas
+  - é executado tanto client quando server side
+  - ideal para colocar providers (context api, theme provider, etc)
+- `_document.tsx`:
+  - executado apenas no server side
+  - ideal para colocar tags html, head e body
+  - ideal para colocar fontes externas e meta tags
+
 ## site-blog
 
 ### config:
 
-<img src="./site-blog/config_install_project_init.png" alt="configuração do projeto" width="600" />
+<img src="./site-blog/config_install_project_init.png" alt="configuração do projeto" />
