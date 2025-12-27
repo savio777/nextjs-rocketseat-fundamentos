@@ -1,5 +1,10 @@
 # nextjs-rocketseat-fundamentos
 
+<img
+src="site-blog/public/screenshot_init.png"
+alt="screenshot do projeto finalizado"
+/>
+
 ## maneiras de renderização Nextjs
 
 ### CSR (Cliente Side Render) [site carregado no lado do cliente]:
