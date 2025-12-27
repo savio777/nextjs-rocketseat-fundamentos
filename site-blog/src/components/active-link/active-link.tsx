@@ -10,8 +10,8 @@ export function ActiveLink({ children, isActive, ...props }: ActiveLinkProps) {
   return (
     <Link
       className={cn(
-        'text-sm font-medium transition-colors hover:text-blue-500',
-        isActive ? 'text-blue-500' : 'text-gray-100'
+        'text-action-sm transition-colors hover:text-blue-200',
+        isActive ? 'text-blue-200' : 'text-gray-100'
       )}
       {...props}
     >
